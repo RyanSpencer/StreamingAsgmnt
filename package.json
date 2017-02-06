@@ -1,0 +1,26 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "Hw of streaming media",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \\\"Tests complete\\\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IGM-Real-Time-at-RIT/streaming-media-assignment.git"
+  },
+  "author": "Ryan Spencer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IGM-Real-Time-at-RIT/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/IGM-Real-Time-at-RIT/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^3.14.1",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
